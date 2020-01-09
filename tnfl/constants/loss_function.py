@@ -1,0 +1,1 @@
+MEAN_SQUARED_ERROR_LOSS_FUNC = 'mean_squared_error'
