@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-from tnfl.constants.loss_function import MEAN_SQUARED_ERROR_LOSS_FUNC
-from tnfl.constants.optimizers import STOICHAIC_GRADIENT_DESCENT_OPTIMIZER
+from constants.loss_function import MEAN_SQUARED_ERROR_LOSS_FUNC
+from constants.optimizers import STOICHAIC_GRADIENT_DESCENT_OPTIMIZER
 
 print(tf.__version__)
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
